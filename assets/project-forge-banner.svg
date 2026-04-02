@@ -1,0 +1,79 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F1E7"/>
+      <stop offset="1" stop-color="#ECF6F5"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="734" y1="106" x2="1144" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C2431"/>
+      <stop offset="1" stop-color="#24364D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="786" y1="158" x2="1062" y2="374" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <filter id="shadow" x="700" y="80" width="492" height="492" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="20"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0705882 0 0 0 0 0.141176 0 0 0 0 0.203922 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
+
+  <circle cx="128" cy="110" r="46" fill="#F97316" fill-opacity="0.12"/>
+  <circle cx="1046" cy="542" r="88" fill="#0EA5E9" fill-opacity="0.10"/>
+  <circle cx="1184" cy="132" r="58" fill="#1F2937" fill-opacity="0.05"/>
+  <path d="M0 496C126 434 221 404 338 422C462 441 563 531 683 548C805 565 932 488 1025 474C1117 461 1200 490 1280 548V640H0V496Z" fill="#1F2937" fill-opacity="0.05"/>
+
+  <text x="92" y="124" fill="#1F2937" font-size="20" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700" letter-spacing="3">PORTFOLIO CASE STUDY</text>
+  <text x="92" y="236" fill="#1F2937" font-size="92" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="800" letter-spacing="-2">PROJECT</text>
+  <text x="92" y="326" fill="#C2410C" font-size="92" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="800" letter-spacing="-2">FORGE</text>
+
+  <text x="96" y="392" fill="#24364D" font-size="28" font-family="Georgia, 'Times New Roman', serif" font-weight="700">AI Coding Assistant Growth System</text>
+  <text x="92" y="446" fill="#475569" font-size="28" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="500">Workflow fit / Trust signals / Team rollout</text>
+
+  <rect x="92" y="494" width="180" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.96"/>
+  <text x="120" y="523" fill="#1F2937" font-size="18" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700">Developers</text>
+
+  <rect x="286" y="494" width="188" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.96"/>
+  <text x="314" y="523" fill="#1F2937" font-size="18" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700">Team leads</text>
+
+  <rect x="488" y="494" width="238" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.96"/>
+  <text x="516" y="523" fill="#1F2937" font-size="18" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700">Enterprise rollout</text>
+
+  <g filter="url(#shadow)">
+    <rect x="746" y="110" width="400" height="400" rx="32" fill="url(#panel)"/>
+  </g>
+
+  <rect x="788" y="150" width="124" height="54" rx="16" fill="#FFF7ED"/>
+  <text x="818" y="184" fill="#1F2937" font-size="20" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="800">Code</text>
+
+  <rect x="982" y="150" width="122" height="54" rx="16" fill="#E0F2FE"/>
+  <text x="1008" y="184" fill="#1F2937" font-size="20" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="800">Trust</text>
+
+  <rect x="882" y="238" width="132" height="54" rx="16" fill="#F8FAFC"/>
+  <text x="910" y="272" fill="#1F2937" font-size="20" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="800">Teams</text>
+
+  <path d="M850 204C850 220 872 226 904 238" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1044 204C1042 220 1021 226 992 238" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="808" y="334" width="278" height="102" rx="24" fill="#162231" stroke="#67E8F9" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="844" y="374" fill="#F8FAFC" font-size="22" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="800">PM Operating System</text>
+  <text x="844" y="406" fill="#CBD5E1" font-size="18" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="600">Strategy / GTM / Roadmap</text>
+
+  <path d="M948 292V334" stroke="#67E8F9" stroke-width="4" stroke-linecap="round"/>
+
+  <circle cx="846" cy="472" r="9" fill="#F97316"/>
+  <circle cx="948" cy="472" r="9" fill="#67E8F9"/>
+  <circle cx="1050" cy="472" r="9" fill="#A78BFA"/>
+
+  <text x="808" y="500" fill="#E2E8F0" font-size="16" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700">Workflow</text>
+  <text x="914" y="500" fill="#E2E8F0" font-size="16" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700">Trust</text>
+  <text x="1020" y="500" fill="#E2E8F0" font-size="16" font-family="'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700">Growth</text>
+</svg>
